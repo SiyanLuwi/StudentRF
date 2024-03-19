@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US" style="font-family: sans-serif;">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Appointment Schedule</title>
+    <style>
+      div {
+        height: 100%;
+        width: 75%;
+        padding: 10px;
+        margin: auto;        
+        }
+    </style>
+  </head>
+
+  <body>
+   <div>
+      <main>
+
+            <p style="font-weight: bold;"> Dear TEODORO A. MACARAEG JR.,</p><br/>
+            <p> Good Day!</p>      
+            <p style="font-weight: bold; text-align:center; color: rgb(15,111,24);"> YOU HAVE SUCCESSFULLY CONFIRMED YOUR </p> 
+            <p style="font-weight: bold; text-align:center; color: rgb(15,111,24);"> FRESHMEN ADMISSION APPOINTMENT BOOKING</p>
+            <p style="font-weight: normal; text-align:center;"> The following are the details of your appointment:</p>
+            <hr style="border-top: solid 2px;">
+              <table style="width:100%;">
+                <tr>
+                  <td>FRESHMEN APPOINTMENT CODE#</td>
+                  <td><?php 
+                    echo $studnum
+                    ?>></td>
+                </tr>
+                <tr>
+                  <td>CAMPUS</td>
+                  <td>SOUTH </td>
+                <tr>
+                  <td>DATE OF APPOINTMENT & DOCUMENT VALIDATION</td>
+                  <td>Wednesday, March 1, 2023</td>
+                </tr>
+                  <td>TIME</td>
+                  <td>09:00 - 12:00</td>
+                </tr>
+              </table>
+            <hr style="border-top: solid 2px;">
+            <p style="font-weight: bold; text-align:left; text-decoration: underline;">IMPORTANT REMINDERS:</p>
+            <ol>
+              <li> <p>Print the attached <b>FRESHMEN ADMISSION FORM</b> and this <b>Email Confirmation</b>  </p> </li>
+              <li> <p>Bring the printed application form, email confirmation and ALL necessary documents (including photocopies) on the date of your appointment. </p></li>
+              <li> <p>Applicants are encouraged to be at the assigned campus at least 10 minutes before their scheduled appointment.</p> </li>
+              <li> <p>Due to the limited space in our operation area and health reasons, applicant may only be allowed to have one (1) companion during their appointment schedule and may not include minor, senior citizens (60 years old and above), visibly pregnant, and persons with a disability (PWD)</p></li>
+              <li> <p>All applicants are expected to observe proper attire, decorum and health protocols while inside our campus.</p> </li>
+              <li> <p>If an appointment schedule is cancelled, a new appointment must be made.</p> </li>
+            </ol><br/>
+            <p> Sincerely, </p>
+            <p style="font-weight: bold;"> UCC Registrar </p><br/>
+            <p style="font-weight: bold; text-align: center;"> *** This is an auto-generated email. PLEASE DO NOT REPLY TO THIS MESSAGE *** </p>
+
+            <p> <B> CONFIDENTIALITY NOTICE: <B> This message is intended for the use of the individual or entity to which it is addressed and may contain information that is confidential, privileged and exempt from disclosure under applicable law. If the reader of this message is not the intended recipient, you are hereby notified that any. </p>
+      </main>
+
+    </div>
+
+   </body>
+</html>

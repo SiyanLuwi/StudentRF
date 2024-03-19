@@ -1,0 +1,49 @@
+/* Separate CSS file or style tag */
+
+/* Navbar color */
+.navbar {
+    background-color: rgb(228, 208, 145);
+    
+}
+
+/* Other styles */
+.h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+}
+.d-flex.justify-content-center.my-4 {
+    color: rgb(255, 255, 255) !important;
+    /* Add other styles here if needed */
+}
+body {
+    background-color: #776b6b;;
+}
+.main {
+    background: #F2F9FF;
+    border-radius: 20px;
+}
+
+.top {
+    background: khaki;
+    border-radius: 10px;
+}
+
+.table {
+    background-color: #ebf4ff;
+    border: 1px solid #ddd;
+    box-shadow: 10px 10px 30px #ac9e9e, -10px -10px 30px #e8d6d6;
+    
+}
+
+th,
+td {
+    border: 1px solid #d4d5d6;
+}
+
+div.dataTables_wrapper,
+div.dataTables_filter,
+div.dataTables_length,
+.dataTables_paginate {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
